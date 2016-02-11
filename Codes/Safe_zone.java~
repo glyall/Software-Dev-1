@@ -1,0 +1,10 @@
+import java.io.*;
+import java.util.Scanner;
+import java.math.*;
+public class Palidrome_numbers{
+  public static void main(String[] args){
+     Scanner user_input = new Scanner (System.in);
+     
+     
+     
+  }

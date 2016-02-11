@@ -1,0 +1,2 @@
+INDEX VERSION 1.127+C:\Users\Grego\OneDrive\College\Sophmore year\Software Devolpment 1\e\SD1\.metadata\.plugins\org.eclipse.jdt.core
+23751658.index

@@ -1,0 +1,38 @@
+package labs;
+import java.util.ArrayList;
+import java.util.Scanner;
+import java.io.*;
+public class Wifi {
+	private int [] myArray;
+	Wifi(){
+	}
+	
+  
+   public static getValue(int z){
+     return getMyArray()[z] ;
+   }
+
+ public static void main(String[] args)  {
+	 Scanner input = new Scanner(new File("array1.txt"));
+	 Wifi H = new Wifi();
+
+	 
+	while (input.hasNext()){
+	 int guests = input.nextInt();
+	 System.out.println(11/guests);
+	}
+ }
+
+
+public int [] getMyArray() {
+	return myArray;
+}
+
+
+public void setMyArray(int [] myArray) {
+	this.myArray = myArray;
+}
+}
+
+
+

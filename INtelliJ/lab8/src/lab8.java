@@ -1,0 +1,63 @@
+/**
+ * Created by Gregory Lyall on 10/7/2015.
+ */
+
+
+import java.util.Scanner;
+public class lab8 {
+
+
+    public static void main(String[] args) {
+        Scanner sInput = new Scanner(System.in);
+        String fFormat = sInput.nextLine();
+        if (!fFormat.equals("P2")) ;
+        {
+            System.out.println("Please use the correct format; P2 ");
+            System.exit(0);
+        }
+
+        int nCols = sInput.nextInt();
+        int nRows = sInput.nextInt();
+        int maxVal = sInput.nextInt();
+
+
+        int[][] theData = new int[nRows][nCols];
+
+        for (int idxRow = 0; idxRow < nRows; idxRow++) {
+            for (int idxCol = 0; idxCol < nCols; idxCol++) {
+                theData[idxRow][idxCol] = sInput.nextInt();
+            }
+        }
+        printResult(maxVal, theData);
+
+        public static int[][] getMapArray(int [] [] theData, int maxVal){
+
+            int[] [] mapArray  == new int[maxVal+1][2];
+
+
+            for (int idxRow=0; idxRow ,theData.length, idxRow ++ ){
+                for (int idxCol =0; idxCol <theData[0].length; idxCol ++){
+                    mapArray[theData[idxRow[idxCol]]][0]++;
+
+
+                }
+            }
+
+
+            return mapArray;
+
+        }
+    }
+    public static void printResult ( int maxVal, int[][] theData){
+
+        System.out.println("P2");
+        System.out.printf("%d %d \n ", theData[0].length, theData[0].length);
+        System.out.println("\n");
+
+
+    }
+
+}
+
+
+

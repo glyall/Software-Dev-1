@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Encapsulate field &apos;labs.Wifi.myArray&apos; in &apos;labs.Wifi&apos;&#x0D;&#x0A;- Original project: &apos;SD1&apos;&#x0D;&#x0A;- Original element: &apos;labs.Wifi.myArray&apos;&#x0D;&#x0A;- Getter method name: &apos;getMyArray&apos;&#x0D;&#x0A;- Setter method name: &apos;setMyArray&apos;&#x0D;&#x0A;- Field visibility: &apos;public&apos;&#x0D;&#x0A;- Use getter and setter methods in declaring type" comments="false" declaring="true" description="Encapsulate field &apos;myArray&apos;" flags="589830" getter="getMyArray" id="org.eclipse.jdt.ui.self.encapsulate" input="/src&lt;labs{Wifi.java[Wifi^myArray" insertion="2" setter="setMyArray" stamp="1449016192898" version="1.0" visibility="1"/>
+</session>

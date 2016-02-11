@@ -1,0 +1,55 @@
+import java.io.*;
+import java.util.Scanner;
+import java.math.*;
+
+public class Find_hacking_times {
+  public static void main (String[] args){
+    Scanner input = new Scanner (System.in);
+    System.out.println( "How long to tyoe one character" );
+    // conver to seconds basded on first two parameters 
+    System.out.println("is this in milli seconds????");
+    String in_ms;
+    in_ms = user_input.next( " " );
+    int secs=input.nextInt(); 
+    if( in_ms = "yes || true || y"){
+      double secs_covert = secs * 1000  ;
+    }
+    int msecs=input.nextInt();
+    //Calculate number of possibilities 
+    double numPos = (" ");
+    //calulate total times 
+    double totHack= totSecs * numPos ;
+    System.out.println("How many bits");
+    double bits = input.nextInt();
+    double totHack = input.newDouble ();
+    if (totHack > 31539456) {
+     double theYears = Math.floor(totHack/31539456);
+     System.out.print("%d years" , theYears);
+     totHack=totHack -(theYears *31539456);
+    }
+     if(totHack > 2628288) {
+      double theMonths = Math.floor(totHack/2628288);
+      System.out.printf ("%d months", theMonths);
+      totHack = totHack - (theMonths * 22628288); 
+      //totHack = 1056,064
+    }
+    if(totHack> 0){ 
+     double secs=math.floor(totHalk/1);
+      System.out.println( "and %d seconds" , theSeconds);
+      totHank= tothank -(theMonths );
+      //totHank == 1,056,064
+    }
+    String allErrorString;
+    switch(allError){
+     
+   case 0: allErrorStrings = ("Please enter a positive number!") ;
+   break;
+   case 1: allErrorStrings = ("Please answer the second quest with a ' yes / true / y ' ") ;
+   break;
+   default: allErrorString = (" Error  what did you do??????") ;
+   break;    
+ }
+  System.out.println(allErrorString);
+  }  
+}
+   

@@ -1,0 +1,49 @@
+package labs;
+
+public class NewPersonAndEmployee {
+	public static void main(String[] args) {
+	
+
+
+  public class Person{
+    private String name;
+    private String address;
+    private String phoneNumber;
+    private String emailAddress;
+    Person(){
+    }
+  }
+     class Students extends Person{
+  	 final String status;
+  	 }
+  
+   class Employee extends Person{
+	 private int officerNumber;
+	 private int salavry;
+	 private MyDate dateHired;
+	  Employee(){  
+	  }
+ }
+  class Facullty extends Employee{
+	private String officeHours;
+	private String rank;	 
+ }
+  class Staff extends Employee{
+	private String title;
+ }
+  
+   class MyDate{
+	private String date; 
+ 
+   Mydate(String date){
+   this.date = date;
+   return date;
+   }
+   public String getDate(){
+	return date;
+}
+ }
+}
+}
+
+

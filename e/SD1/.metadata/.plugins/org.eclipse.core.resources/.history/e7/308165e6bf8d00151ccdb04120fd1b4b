@@ -1,0 +1,33 @@
+/**
+ * Created by Grego on 11/18/2015.
+ */
+import java.io.*;
+import java.util.Scanner;
+public class code {
+
+    public static void main(String[] args) {
+        System.out.println("Hello");
+        Scanner user = new Scanner(System.in);
+        String user_answer = user.nextLine();
+
+        user_answer;
+    }
+    class response {
+     public  void computerResponse(String user_answer){
+         switch(user_answer) {
+             case "Hello":
+                 System.out.println("How are you doing");
+                 break;
+             case "Leave me allow":
+                 System.out.println("Alright sorry to bother you");
+                 break;
+             case "fuck off":
+                 System.out.println("WOW that esculated quickly");
+                 break;
+             default:
+                 System.out.println(" ");
+                 break;
+         }
+        }
+    }
+}

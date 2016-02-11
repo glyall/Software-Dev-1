@@ -1,0 +1,19 @@
+package labs;
+
+public class NewPersonAndEmployee {
+	public static void main(String[] args) {
+}
+}
+  public class Person{
+    private String name;
+    private String address;
+    private String phoneNumber;
+    private String emailAddress;
+  }
+  public class Students extends Person{
+  	 final String 
+  	 final String 
+  	 final String
+	 
+	 
+ }
